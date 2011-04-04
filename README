@@ -1,0 +1,36 @@
+#
+#   Copyright 2011 Paulo Augusto Dacach Bichara
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#
+
+-------------------------------------------------------------------
+@Author: Paulo Augusto Dacach Bichara (contato@paulobichara.org)
+-------------------------------------------------------------------
+
+This project is a simple bulk mailer application made with purpose of 
+send Christmas messages to customers. You can connect to either an local 
+or remote SMTP server, that requires authentication or not. It asks as 
+input an prebuilt HTML email file and an csv file containing a list of 
+emails (and other data) to send emails to. The application intends to 
+send individual messages peer recipient with proper treatment inside 
+each message ('Dear mr. Fulano', as treatment for an male recipient 
+named Fulano). You just need to specify, inside the HTML message, a tag 
+that determines where the recipient name will be put: 'Hello, 
+{RECIPIENTSNAME}!' and set it in the proper configuration step. This app 
+also can be used as an massive mail attack or spam tool, so be careful 
+and use it with responsability.
+
+Main class: TelaPrincipal.java.
+
+Good luck!
